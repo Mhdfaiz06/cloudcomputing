@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
 app = FastAPI
-@app.get("/hello world")
+@app.get("/helloworld")
 async def read_root():
     return {"Message":"hello world congrats "}
